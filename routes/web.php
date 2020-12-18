@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('users', function()
+Route::get('/users', function()
 {
     return View::make('users');
 });
-Route::get('countryList', function()
+Route::get('/countryList', function()
 {
     return View::make('countryList');
 });
