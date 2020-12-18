@@ -18,9 +18,9 @@ Route::get('/', function () {
 });
 Route::get('/users', function()
 {
-    return View::make('users');
+    return view('users');
 });
 Route::get('/countryList', function()
 {
-    return View::make('countryList');
+    return view('countryList');
 });
