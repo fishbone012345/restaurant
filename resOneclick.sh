@@ -4,3 +4,4 @@ echo "Project version name:"
 read name
 git commit -m $name
 git push -u res master
+zip restaurant.zip -r * .[^.]*
